@@ -1,7 +1,9 @@
+/* Global Styles */
 body {
+  margin: 0;
   font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
-  margin: 40px;
+  background: #8ca77e;
+  color: #365047;
 }
 
 h1 {
@@ -11,80 +13,92 @@ h1 {
 p {
   font-size: 18px;
 }
-  <style>
 
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: #8ca77e;
-      color: #365047;
-    }
+/* Header Styles */
+header {
+  background: #365047;
+  color: #b8cfc7;
+  padding: 20px;
+}
 
-    header {
-      <div class="header-content">
-        <img src="images/logo.png" alt="Moore Movement Logo" id="logo">
-        <h1>Moore Movement Mobile PT</h1>
-      </div>
-    </header>
-      background: #365047;
-      color: #b8cfc7;
-      padding: 20px;
-      text-align: center;
-    }
+.header-content {
+  display: flex;               /* horizontal layout */
+  align-items: center;         /* vertical alignment */
+  justify-content: center;     /* centers the content */
+  gap: 20px;                   /* space between logo and text */
+  flex-wrap: wrap;             /* allows wrapping on small screens */
+  text-align: left;
+}
 
-    nav {
-      background: #61827d;
-      padding: 10px;
-      text-align: center;
-    }
+#logo {
+  height: 80px;                /* adjust size as needed */
+  width: auto;
+}
 
-    nav a {
-      color: white;
-      text-decoration: none;
-      margin: 0 15px;
-      font-weight: bold;
-    }
+.header-text h1 {
+  margin: 0;
+}
 
-    nav a:hover {
-      color: #bbccca;
-    }
+.header-text p {
+  margin: 0;
+  font-size: 1rem;
+}
 
-    .container {
-      max-width: 900px;
-      margin: auto;
-      padding: 40px;
-      background: #c0cfb9;
-    }
+/* Navigation Styles */
+nav {
+  background: #61827d;
+  padding: 10px;
+  text-align: center;
+}
 
-    .hero {
-      text-align: center;
-      padding: 40px 0;
-    }
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
 
-    .hero h1 {
-      font-size: 40px;
-    }
+nav a:hover {
+  color: #bbccca;
+}
 
-    .button {
-      display: inline-block;
-      padding: 12px 20px;
-      background: #ebbf0e;
-      color: white;
-      text-decoration: none;
-      border-radius: 6px;
-      margin-top: 15px;
-    }
+/* Container */
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 40px;
+  background: #c0cfb9;
+}
 
-    .button:hover {
-      background: #f5d861;
-    }
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 40px 0;
+}
 
-    footer {
-      text-align: center;
-      padding: 10px;
-      background: #ae6327;
-      color: white;
-      margin-top: 0px;
-    }
+.hero h1 {
+  font-size: 40px;
+}
 
-  </style>
+.button {
+  display: inline-block;
+  padding: 12px 20px;
+  background: #ebbf0e;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  margin-top: 15px;
+}
+
+.button:hover {
+  background: #f5d861;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 10px;
+  background: #ae6327;
+  color: white;
+  margin-top: 0px;
+}
