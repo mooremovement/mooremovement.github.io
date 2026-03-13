@@ -19,7 +19,7 @@ p {
 header {
   background-color: #333;
   color: #b8cfc7;
-  padding: 20px;
+  padding: 60px;
 }
 
 .header-content {
@@ -32,7 +32,7 @@ header {
 }
 
 #logo {
-  height: 300px;
+  height: 100px;
   width: auto;
 }
 
