@@ -28,7 +28,7 @@ header {
   justify-content: center;
   gap: 25px;
   flex-wrap: wrap;
-  text-align: left;
+  text-align: center;
 }
 
 #logo {
